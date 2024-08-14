@@ -1,0 +1,17 @@
+{
+  "name": "@ratehub/newrelic-undici-error-repro",
+  "version": "0.0.1",
+  "description": "newrelic-undici-error-repro",
+  "license": "UNLICENSED",
+  "author": "Ratehub <dev@ratehub.ca> (https://www.ratehub.ca)",
+  "main": "./index.js",
+  "private": true,
+  "scripts": {
+    "start": "node --env-file=.env --require=newrelic src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "newrelic": "11.10.4",
+    "node-fetch": "^2.7.0"
+  }
+}
